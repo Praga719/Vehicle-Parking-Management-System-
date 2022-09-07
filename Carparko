@@ -1,0 +1,42 @@
+package carparko;
+
+public class AddRecord extends javax.swing.JFrame {
+    private int rid;
+    carparko.Homepage hm;
+    private int v_type;
+    private java.util.ArrayList v_vid;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel record_id;
+    private javax.swing.JLabel record_id_label;
+    private javax.swing.JButton submit;
+    private javax.swing.JTextField v_size;
+    private javax.swing.JLabel v_size_label;
+    private javax.swing.JTextField v_time;
+    private javax.swing.JRadioButton v_type_car;
+    private javax.swing.JLabel v_type_label;
+    private javax.swing.JRadioButton v_type_truck;
+    private javax.swing.JTextField vid;
+    private javax.swing.JLabel vid_label;
+
+    public AddRecord(carparko.Homepage h) { /* compiled code */ }
+
+    private void initComponents() { /* compiled code */ }
+
+    private void vidActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    private void v_type_truckActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    private void v_type_carActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    private void submitActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    private void v_sizeActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    private void v_timeActionPerformed(java.awt.event.ActionEvent evt) { /* compiled code */ }
+
+    public static void main(java.lang.String[] args) { /* compiled code */ }
+
+    public boolean isInt(java.lang.String s) { /* compiled code */ }
+}
